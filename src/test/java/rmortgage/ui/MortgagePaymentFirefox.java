@@ -79,7 +79,7 @@ public class MortgagePaymentFirefox {
 		Thread.sleep(5000);
 		
 		WebElement total = driver.findElement(By.xpath("//*[@data-qa='totalMonthlyPayment']//descendant::span"));
-		System.out.println(total);
+		System.out.println(total.getText());
 		
 		
 		//FORMULA VALUES
